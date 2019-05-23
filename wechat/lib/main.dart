@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:wechat/home/home_screen.dart';
 main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget  {
@@ -8,15 +8,8 @@ class MyApp extends StatelessWidget  {
     // TODO: implement build
 
     return MaterialApp(
-        title: "",
-        home:Center(
-
-       child:  FloatingActionButton(
-            child: Icon(Icons.add),
-            tooltip: "别按了",
-            onPressed: (){}
-        ),
-        )
+        title: "微信",
+        home:HomeScreen(),
     );
   }
 }
